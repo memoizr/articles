@@ -5,7 +5,7 @@ Tests should be easy to read. You should be able to go a
 test class you are not familiar with, collapse all the methods, and have a very quick read of all the test names. You do that, and in a matter of seconds you should have a very good idea of what the system under test is expected to do and in exactly what circumstances. If you can do this then what they say about tests, that they serve as living documentation, becomes more true than ever.
 
 Now here's what a BDD-style given-when-then format I've seen used and have used myself in the past looks like:
-```
+```kotlin
 @Test
 fun givenViewHasBeenReattachedWhenRefreshThenShowsUpdatedItems() { ... }
 
@@ -13,7 +13,7 @@ fun givenViewHasBeenReattachedWhenRefreshThenShowsUpdatedItems() { ... }
 fun givenNoValidEmailWhenCreatingUserThenThrowsException() { ... }
 ```
 it's not exactly a pleasure to read a screen full of this stuff is it? The given-when-then keywords take up precious space on the screen. I don't want to read a screen full of this stuff, after a while it sort of starts looking a bit like:
-```
+```kotlin
 @Test
 fun BlahblahBlahblahBlahblahBlahblahBlahblah()
 ```
@@ -49,7 +49,7 @@ Now, it's Kotlin we're using, so let's use the `` thingy Kotlin offers, I say. F
 fun `Shows updated items when refresh happens after view is reattached`() { ... }
 
 @Test
-fun `Throws exception when creating a user with no valid email`() { ... }`
+fun `Throws exception when creating a user with no valid email`() { ... }
 ```
 Now I can read a whole page of this stuff, quickly and without getting tired. I can actually read the summaries of the tests that have run at the bottom of the screen and actually get some more info out of it more than `blahblahblahblah` is all green, whatever that means. 
 
