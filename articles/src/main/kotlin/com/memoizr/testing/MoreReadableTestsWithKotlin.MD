@@ -42,7 +42,7 @@ I think it reads more like what you would actually say when asked "what does thi
 
 But wait what's that? Oh it's the good old `BlahblahBlahblahBlahblahBlahblahBlahblah()` effect again!
 
-Now, it's Kotlin we're using, so let's use the ` `` ` thingy Kotlin offers, I say. Feel free to use them in your test methods, and feel free to write your test name in a as readable and as descriptive way as you can. This is what I'd rather see:
+Now, it's Kotlin we're using, so let's use the `` thingy Kotlin offers, I say. Feel free to use them in your test methods, and feel free to write your test name in a as readable and as descriptive way as you can. This is what I'd rather see:
 
 ```kotlin
 @Test
