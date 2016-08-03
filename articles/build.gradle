@@ -1,0 +1,26 @@
+group 'com.memoizr'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    ext.kotlin_version = '1.1-M01'
+
+    repositories {
+        maven { url "https://dl.bintray.com/kotlin/kotlin-eap-1.1" }
+        jcenter()
+    }
+    dependencies {
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+apply plugin: 'kotlin'
+
+repositories {
+    maven { url "https://dl.bintray.com/kotlin/kotlin-eap-1.1" }
+    jcenter()
+}
+
+dependencies {
+    compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
