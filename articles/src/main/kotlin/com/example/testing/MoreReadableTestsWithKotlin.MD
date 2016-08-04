@@ -55,9 +55,11 @@ Now, it's Kotlin we're using, so let's use the `` thingy Kotlin offers, I say. F
 Now I can read a whole page of this stuff, quickly and without getting tired. What's more, I can actually read the summaries of the tests that have run at the bottom of the screen and actually get some more info out of it more than that all my `givenBlahblahCoolStoryBroBlahblah`s are green, whatever they mean. What summary would you rather read?
 
 *Wall of text meant for robots:*
+
 ![Robot readable summary](robot-readable-results.jpg)
 
 *Information meant for humans:*
+
 ![Human readable summary](human-readable-results.jpg)
 
 But that's only my fallible opinion anyway, what do *YOU* think?
