@@ -11,13 +11,13 @@ It's not exactly a pleasure to read a screen full of this stuff is it? The `give
 
 ```kotlin
 @Test
-fun BlahblahIHopeTheyPayMeThisMonthBlahblahBlahblahBlahblah() { ... } 
+fun blahblahIHopeTheyPayMeThisMonthBlahblahBlahblahBlahblah() { ... } 
 
 @Test
-fun BlahblahBlahblahIHateMyLifeBlahblahBlahblahBlahblahBlahBlahBlah() { ... }
+fun blahblahBlahblahIHateMyLifeBlahblahBlahblahBlahblahBlahBlahBlah() { ... }
 
 @Test
-fun BlahblahBlahblahBlahblahBlahIWantToGoHomeAndCryBlahblahBlahBlahBlah() { ... }
+fun blahblahBlahblahBlahblahBlahIWantToGoHomeAndCryBlahblahBlahBlahBlah() { ... }
 ```
 
 at which point I might well be tempted to uncollapse the methods and just read the test code, and bam! my reading speed and information retention just plummeted. Not what I wanted.
