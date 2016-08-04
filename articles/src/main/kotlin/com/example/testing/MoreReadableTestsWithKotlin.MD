@@ -38,15 +38,15 @@ So here's an alternative approach I prefer using at the moment, which I think I 
 
 ```kotlin
 @Test
-fun DisplaysSuccessScreenWhenCreatingAUserWithAllFieldsValid() { ... }
+fun displaysSuccessScreenWhenCreatingAUserWithAllFieldsValid() { ... }
 
 @Test
-fun DoesNotSendRequestWhenCreatingAUserWithAnyFieldInvalid() { ... }
+fun doesNotSendRequestWhenCreatingAUserWithAnyFieldInvalid() { ... }
 ```
 
 I think it reads more like what you would actually say when asked "what does this system do?" by a colleague or manager. You lose the nice structure of the other formats, but hey, I don't see many people explaining their product owner or colleague what they just did by speaking like a robot.
 
-But wait what's that? Oh look! It's the good old `BlahblahBlahblahBlahblahIsIt530YetBlahblahBlahblah()` effect again!
+But wait what's that? Oh look! It's the good old `blahblahBlahblahBlahblahIsIt530YetBlahblahBlahblah()` effect again!
 
 Now, it's Kotlin we're using, so let's use the `` thingy Kotlin offers, I say. Feel free to use them in your test methods, or even class names, and feel free to write your test names in a as readable and as descriptive a way as you can. This is what I'd rather see:
 
